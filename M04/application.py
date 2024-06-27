@@ -44,7 +44,7 @@ def add_book():
     return {'id':book.id}
 
 @app.route('/books', methods=['DELETE'])
-def delete_drink(id):
+def delete_book(id):
     book = Books.query.get(id)
     if drink is None:
         return {"error": "not found"}
