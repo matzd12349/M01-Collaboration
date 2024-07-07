@@ -1,0 +1,8 @@
+Testing the python files gives a pass or fail result given certain testing parameters.
+It shows the results of all the tests whether they passed or failed.
+The FAIL entry will give details about the failure:
+    -The name of the method
+    -The naime of the module
+    -A traceback to the line that failed
+    -Details of that error / expected result / actual result
+using '-v' can give extra information regarding unit testing in a given program.
